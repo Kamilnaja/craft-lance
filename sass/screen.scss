@@ -15,6 +15,12 @@ $roboto: 'Roboto', sans-serif;
 html {
     font-size: 62.5%;
 }
+.center-column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
 .navbar {
     margin-bottom: 0;
 
@@ -130,7 +136,9 @@ html {
             background-color: #37804e;
         }
     }
+
 }
+
 .community {
     padding-top: 110px;
     padding-bottom: 70px;
@@ -145,6 +153,44 @@ html {
 
         text-align: center;
     }
+
+
+    .start-signup {
+        padding: 70px 100px;
+        border: 2px solid silver;
+        background-color: white;
+    }
+    .content {
+        overflow: hidden;
+        text-align: left;
+        margin-left: 30px;
+        padding-left: 30px;
+    }
+    ol {
+        list-style-type: decimal-leading-zero;
+        list-style-position: inside;
+        text-align: left;
+    }
+    li {
+        font: 300 1.6rem $roboto;
+        list-style-type: decimal-leading-zero;
+    }
+    h3 {
+        font: 300 2.6rem $roboto;
+        color: #5db442;
+        margin-bottom: 25px;
+    }
+
+        span.glyphicon-hand-right {
+            font-size: 5.0rem;
+            color: #5db442;
+            float: left;
+            width: 70px;
+            height: auto;
+            display: block;
+            margin-top: 31px;
+
+        }
 }
 
 .package {
@@ -170,7 +216,6 @@ html {
     text-align: center;
 
     background-color: #fff;
-
     h2 {
         font: 300 4.8rem $roboto;
 
@@ -180,30 +225,31 @@ html {
     }
     .features {
         div {
+            margin-right: 10px;
             margin-bottom: 20px;
+            margin-left: 10px;
+            padding-right: 15px;
             padding-bottom: 60px;
             padding-left: 15px;
-            padding-right: 15px;
-            margin-right: 10px;
-            margin-left: 10px;
             img {
                 padding-top: 40px;
-
             }
             h2 {
                 font: 1.6rem $roboto;
 
-                color: #333;
-
                 text-transform: uppercase;
+
+                color: #333;
             }
             p {
                 font: 1.5rem $roboto;
                 line-height: 1.6;
-                color: #777777;
+
+                color: #777;
             }
             hr {
                 width: 70px;
+
                 border: 0;
                 border-top: 3px solid lightgrey;
             }
@@ -214,14 +260,15 @@ html {
     background-color: green;
 }
 .features div:hover p {
-    color: white
+    color: white;
 }
 .features div:hover h2 {
     color: white;
 }
-@media (min-width: 1100px){
+@media (min-width: 1100px) {
     .features div {
         width: calc(25% - 20px);
+
         border: 1px solid black;
     }
 }
