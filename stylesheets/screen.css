@@ -1,82 +1,13 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
 @font-face {
   font-family: 'Basic Sans Serif 7';
   src: url("../fonts/basic_sans_serif_7.ttf") format "truetype";
 }
-/* line 15, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .center-column {
   display: block;
   margin-left: auto;
@@ -84,31 +15,31 @@ html {
   float: none;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .navbar {
   margin-bottom: 0;
   box-shadow: 0 -3px 20px black;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .navbar-header {
   font: 3rem "Basic Sans Serif 7", Verdana, Tahoma;
   padding-top: 10px;
   text-transform: uppercase;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .navbar-default {
   padding-top: 10px;
   padding-bottom: 15px;
   border-color: transparent;
   background-color: transparent;
 }
-/* line 42, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .navbar-default .navbar-nav {
   margin-top: -10px;
 }
-/* line 45, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .navbar-default li a {
   font: 1.4rem "Roboto", sans-serif;
   margin-top: 20px;
@@ -117,24 +48,24 @@ html {
   transition: .6s ease;
   border: 2px solid white;
 }
-/* line 56, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .navbar-default li a:active,
 .navbar-default li a:hover {
   color: #6aba52 !important;
   border: 2px solid #6aba52;
   border-radius: 30px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .navbar-default .navbar-brand {
   margin-top: 8px;
   margin-bottom: -20px;
   padding-top: 0;
 }
-/* line 67, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .navbar-default .navbar-nav .active a {
   background-color: transparent;
 }
-/* line 69, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .navbar-default .navbar-nav .active a:hover {
   background-color: transparent;
 }
@@ -218,37 +149,37 @@ html {
   margin-bottom: 25px;
   text-align: center;
 }
-/* line 158, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .community .start-signup {
   padding: 70px 100px;
   border: 2px solid silver;
   background-color: white;
 }
-/* line 163, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .community .content {
   overflow: hidden;
   text-align: left;
   margin-left: 30px;
   padding-left: 30px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .community ol {
   list-style-type: decimal-leading-zero;
   list-style-position: inside;
   text-align: left;
 }
-/* line 174, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .community li {
   font: 300 1.6rem "Roboto", sans-serif;
   list-style-type: decimal-leading-zero;
 }
-/* line 178, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .community h3 {
   font: 300 2.6rem "Roboto", sans-serif;
   color: #5db442;
   margin-bottom: 25px;
 }
-/* line 184, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .community span.glyphicon-hand-right {
   font-size: 5.0rem;
   color: #5db442;
@@ -259,89 +190,80 @@ html {
   margin-top: 31px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .package {
   padding-top: 110px;
   padding-bottom: 70px;
   text-align: center;
   background-color: #fff;
 }
-/* line 203, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .package h2 {
   font: 300 4.8rem "Roboto", sans-serif;
   margin-bottom: 25px;
   text-align: center;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .data {
   padding-top: 110px;
   padding-bottom: 70px;
   text-align: center;
   background-color: #fff;
 }
-/* line 219, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .data h2 {
   font: 300 4.8rem "Roboto", sans-serif;
   margin-bottom: 25px;
   text-align: center;
 }
-/* line 227, ../sass/screen.scss */
-.data .features div {
+/* line 225, ../sass/screen.scss */
+.data .feature--box {
   margin-right: 10px;
   margin-bottom: 20px;
-  margin-left: 10px;
-  padding-right: 15px;
-  padding-bottom: 60px;
-  padding-left: 15px;
+  padding: 0 15px 60px;
 }
-/* line 234, ../sass/screen.scss */
-.data .features div img {
+/* line 229, ../sass/screen.scss */
+.data .feature--box img {
   padding-top: 40px;
 }
-/* line 237, ../sass/screen.scss */
-.data .features div h2 {
+/* line 232, ../sass/screen.scss */
+.data .feature--box h2 {
   font: 1.6rem "Roboto", sans-serif;
   text-transform: uppercase;
   color: #333;
 }
-/* line 244, ../sass/screen.scss */
-.data .features div p {
+/* line 237, ../sass/screen.scss */
+.data .feature--box p {
   font: 1.5rem "Roboto", sans-serif;
   line-height: 1.6;
   color: #777;
 }
-/* line 250, ../sass/screen.scss */
-.data .features div hr {
+/* line 243, ../sass/screen.scss */
+.data .feature--box hr {
   width: 70px;
   border: 0;
   border-top: 3px solid lightgrey;
 }
 
-/* line 259, ../sass/screen.scss */
-.features div:hover {
+/* line 252, ../sass/screen.scss */
+.feature--box:hover {
   background-color: green;
 }
 
-/* line 262, ../sass/screen.scss */
-.features div:hover p {
-  color: white;
-}
-
-/* line 265, ../sass/screen.scss */
-.features div:hover h2 {
+/* line 256, ../sass/screen.scss */
+.feature--box:hover p {
   color: white;
 }
 
 @media (min-width: 1100px) {
-  /* line 269, ../sass/screen.scss */
-  .features div {
-    width: calc(25% - 20px);
+  /* line 261, ../sass/screen.scss */
+  .feature--box {
     border: 1px solid black;
   }
 }
 @media (max-width: 992px) {
-  /* line 277, ../sass/screen.scss */
+  /* line 269, ../sass/screen.scss */
   .navbar-default li a {
     display: block;
     max-width: 300px;
@@ -351,7 +273,7 @@ html {
     padding: 15px 20px;
     text-align: center;
   }
-  /* line 288, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   .navbar-default li a:first-child {
     margin-top: 10px;
   }
