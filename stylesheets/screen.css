@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Basic Sans Serif 7';
-  src: url("../fonts/basic_sans_serif_7.ttf") format "truetype";
+  src: url("../fonts/basic_sans_serif_7.ttf");
 }
 /* line 10, ../sass/screen.scss */
 html {
@@ -263,7 +263,7 @@ html {
   }
 }
 @media (max-width: 992px) {
-  /* line 269, ../sass/screen.scss */
+  /* line 268, ../sass/screen.scss */
   .navbar-default li a {
     display: block;
     max-width: 300px;
@@ -273,8 +273,12 @@ html {
     padding: 15px 20px;
     text-align: center;
   }
-  /* line 280, ../sass/screen.scss */
+  /* line 279, ../sass/screen.scss */
   .navbar-default li a:first-child {
     margin-top: 10px;
   }
+}
+/* line 285, ../sass/screen.scss */
+.site--footer {
+  background-color: #efefef;
 }
