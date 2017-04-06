@@ -219,51 +219,52 @@ html {
 }
 /* line 225, ../sass/screen.scss */
 .data .feature--box {
+  min-height: 500px;
   margin-right: 10px;
   margin-bottom: 20px;
   padding: 0 15px 60px;
 }
-/* line 229, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .data .feature--box img {
   padding-top: 40px;
 }
-/* line 232, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .data .feature--box h2 {
   font: 1.6rem "Roboto", sans-serif;
   text-transform: uppercase;
   color: #333;
 }
-/* line 237, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .data .feature--box p {
   font: 1.5rem "Roboto", sans-serif;
   line-height: 1.6;
   color: #777;
 }
-/* line 243, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .data .feature--box hr {
   width: 70px;
   border: 0;
   border-top: 3px solid lightgrey;
 }
 
-/* line 252, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .feature--box:hover {
   background-color: green;
 }
 
-/* line 256, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .feature--box:hover p {
   color: white;
 }
 
 @media (min-width: 1100px) {
-  /* line 261, ../sass/screen.scss */
+  /* line 262, ../sass/screen.scss */
   .feature--box {
     border: 1px solid black;
   }
 }
 @media (max-width: 992px) {
-  /* line 268, ../sass/screen.scss */
+  /* line 269, ../sass/screen.scss */
   .navbar-default li a {
     display: block;
     max-width: 300px;
@@ -273,12 +274,34 @@ html {
     padding: 15px 20px;
     text-align: center;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   .navbar-default li a:first-child {
     margin-top: 10px;
   }
 }
-/* line 285, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .site--footer {
   background-color: #efefef;
+  padding-top: 40px;
+}
+
+/* line 290, ../sass/screen.scss */
+.site--footer-header {
+  font: 700 16px "Roboto", sans-serif;
+}
+
+/* line 293, ../sass/screen.scss */
+.menu__link {
+  text-transform: uppercase;
+  font: 300 14px "Roboto", sans-serif;
+  color: black;
+  margin-bottom: 8px;
+}
+/* line 298, ../sass/screen.scss */
+.menu__link:first-child {
+  margin-top: 20px;
+}
+/* line 301, ../sass/screen.scss */
+.menu__link a {
+  color: inherit;
 }

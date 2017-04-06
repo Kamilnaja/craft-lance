@@ -223,6 +223,7 @@ html {
     text-align: center;
   }
   .feature--box {
+    min-height: 500px;
     margin-right: 10px;
     margin-bottom: 20px;
     padding: 0 15px 60px;
@@ -284,4 +285,20 @@ html {
 
 .site--footer {
   background-color: #efefef;
+  padding-top: 40px;
+}
+.site--footer-header {
+  font: 700 16px $roboto;
+}
+.menu__link {
+  text-transform: uppercase;
+  font: 300 14px $roboto;
+  color: black;
+  margin-bottom: 8px;
+  &:first-child {
+    margin-top: 20px;
+  }
+  & a {
+    color: inherit;
+  }
 }
