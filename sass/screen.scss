@@ -1,11 +1,10 @@
+@import '_variables.scss';
+
 @font-face {
   font-family: 'Basic Sans Serif 7';
 
   src: url('../fonts/basic_sans_serif_7.ttf');
 }
-
-$basic: 'Basic Sans Serif 7', Verdana, Tahoma;
-$roboto: 'Roboto', sans-serif;
 
 html {
   font-size: 62.5%;
@@ -142,15 +141,11 @@ html {
 .community {
   padding-top: 110px;
   padding-bottom: 70px;
-
   text-align: center;
-
   background-color: #ececec;
   h2 {
     font: 300 4.8rem $roboto;
-
     margin-bottom: 25px;
-
     text-align: center;
   }
 
@@ -176,34 +171,29 @@ html {
   }
   h3 {
     font: 300 2.6rem $roboto;
-    color: #5db442;
+    color: $motive;
     margin-bottom: 25px;
   }
 
   span.glyphicon-hand-right {
     font-size: 5.0rem;
-    color: #5db442;
+    color: $motive;
     float: left;
     width: 70px;
     height: auto;
     display: block;
     margin-top: 31px;
-
   }
 }
 
 .package {
   padding-top: 110px;
   padding-bottom: 70px;
-
   text-align: center;
-
   background-color: #fff;
   h2 {
     font: 300 4.8rem $roboto;
-
     margin-bottom: 25px;
-
     text-align: center;
   }
 }
@@ -211,22 +201,19 @@ html {
 .data {
   padding-top: 110px;
   padding-bottom: 70px;
-
   text-align: center;
-
-  background-color: #fff;
+  background-image: linear-gradient(-45deg, rgba(184, 200, 235, 0.1) 25%, transparent 25%, transparent 50%, rgba(184, 200, 235, 0.1) 50%, #B8C8EB 75%, transparent 75%, transparent);
+  background-size: 4px 4px;
   h2 {
     font: 300 4.8rem $roboto;
-
     margin-bottom: 25px;
-
     text-align: center;
   }
   .feature--box {
     min-height: 500px;
-    margin-right: 10px;
     margin-bottom: 20px;
     padding: 0 15px 60px;
+    background-color: white;
     img {
       padding-top: 40px;
     }
@@ -238,29 +225,31 @@ html {
     p {
       font: 1.5rem $roboto;
       line-height: 1.6;
-
       color: #777;
     }
     hr {
       width: 70px;
-
       border: 0;
-      border-top: 3px solid lightgrey;
+      border-top: 3px solid lighten(#777, 30%);
+    }
+    &:hover {
+      background-color: lighten($motive, 10%);
+      & p {
+        color: white;
+      }
+      & h2 {
+        color: white;
+      }
+      & hr {
+        border-top: 3px solid white;
+      }
     }
   }
 }
 
-.feature--box:hover {
-  background-color: green;
-}
-
-.feature--box:hover p {
-  color: white;
-}
-
 @media (min-width: 1100px) {
   .feature--box {
-    border: 1px solid black;
+    border: 1px dashed #777;
   }
 }
 
@@ -268,13 +257,9 @@ html {
   .navbar-default {
     li a {
       display: block;
-
       max-width: 300px;
-      margin-top: 0;
-      margin-right: auto;
-      margin-left: auto;
+      margin: 0 auto;
       padding: 15px 20px;
-
       text-align: center;
     }
     li a:first-child {
@@ -287,12 +272,14 @@ html {
   background-color: #efefef;
   padding-top: 40px;
 }
+
 .site--footer-header {
   font: 700 16px $roboto;
 }
+
 .menu__link {
   text-transform: uppercase;
-  font: 300 14px $roboto;
+  font: 300 1.4rem $roboto;
   color: black;
   margin-bottom: 8px;
   &:first-child {
