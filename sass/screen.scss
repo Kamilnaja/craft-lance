@@ -36,6 +36,7 @@ html {
   background-color: transparent;
   .navbar-nav {
     margin-top: -10px;
+    cursor: pointer;
   }
   li a {
     font: 1.4rem $roboto;
@@ -129,10 +130,8 @@ html {
 
 .community {
   text-align: center;
-  background-color: #ececec;
-  background-image: url("../img/bg-landing.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background: #ececec url("../img/bg-landing.jpg") no-repeat;
 
   .signup--header {
     font: 300 4.8rem $roboto;

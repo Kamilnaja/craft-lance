@@ -7,6 +7,7 @@
   <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/sweetalert2.min.css">
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -26,7 +27,7 @@
         <li class="active"><a href="./">Products<span class="sr-only">(current)</span></a></li>
         <li><a href="../navbar-static-top/">Solutions</a></li>
         <li><a href="../navbar-fixed-top/">Support</a></li>
-        <li><a href="../navbar-fixed-top/">Sign In</a></li>
+        <li><a id="signIn">Sign In</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
@@ -35,7 +36,7 @@
 <section class="container-fluid bring box">
   <div class="row">
     <div class="col-md-8 col-md-offset-4 center-column">
-      <h2 class="h2-bring">Bring your Big Data to Life With Craft Lance</h2>
+      <h2 class="h2-bring">Please Sign in button to start login pop-up</h2>
       <p class="subheader">Blue Lance transforms your company's data into rich visuals for you to collect and
         organize so you can focus on what matters to you. Stay in the know, spot trends as they happen, and push
         your business further.</p>
@@ -220,9 +221,10 @@
     </div>
   </div>
 </footer>
-
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"
         integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="scripts/sweetalert2.min.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>
